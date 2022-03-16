@@ -1,0 +1,298 @@
+.form_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.stepper {
+	margin-top: -10px;
+	width: 60%;
+	text-align: center;
+}
+
+.form_body {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.form_back {
+	position: relative;
+	background: linear-gradient(90deg, #4bd3c5 2.97%, #4bd3c5 100%);
+	border-radius: 15px;
+	padding-top: 15px;
+	width: 100%;
+	min-height: 48vh;
+}
+
+.form_overlay {
+	background: #FFF;
+	border-radius: 15px;
+	box-shadow: 3px 4px 13px lightgrey;
+	min-height: 48vh;
+	margin-bottom: 20px;
+}
+
+.Infogrid {
+	display: flex;
+	justify-content: space-between;
+}
+
+.MuiFormControl-root.form_textfield {
+	width: 100% !important;
+	font-family: "Poppins", sans-serif !important;
+}
+
+input[type="text"]::placeholder {
+	color: gray !important;
+}
+
+.form_textfield>.MuiInputLabel-root {
+	color: gray !important;
+	line-height: 1 !important;
+}
+
+.form_textfield> .MuiInputBase-root {
+	color: #00afb9 !important;
+	/* font-size: 15px; */
+	/* font-weight: bold; */
+}
+
+.dob-dropdown{
+	min-width: 150px !important;
+	margin-right: 10px !important;
+}
+
+.lab-dropdown{
+	width: 470px !important;
+}
+
+.form-dropdown>.MuiInput-underline:after {
+	border-bottom: 2px solid #00afb9 !important;
+}
+
+.form-dropdown>.MuiInput-root {
+	color: #00afb9 !important;
+	/* font-size: 15px; */
+	/* font-weight: bold; */
+}
+
+.form_textfield>.MuiInput-underline:after {
+	border-bottom: 2px solid #00afb9 !important;
+}
+
+.form_textfield>.MuiFormLabel-root.Mui-focused {
+	color: #00afb9 !important;
+}
+
+.form-dropdown>.MuiFormLabel-root.Mui-focused {
+	color: #00afb9 !important;
+}
+
+.react-tel-input .special-label {
+	display: none !important;
+}
+
+.react-tel-input .form-control {
+	color: #00afb9 !important;
+	/* font-weight: bold; */
+	width: 100% !important;
+	height: 45px !important;
+}
+
+.protonMail {
+	text-decoration: none !important;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+.custom-file-upload {
+	position: relative;
+	padding: 12px 20px;
+	width:250px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px dashed #ccc;
+	text-align: center;
+	background: #f07167;
+	color: white;
+	cursor: pointer;
+}
+
+.preview-img {
+	width: 270px;
+	height: 150px;
+}
+
+.preview-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	background-position: center;
+}
+
+.img-label {
+	padding-top: 5px;
+	font-size: 10px;
+	color: gray;
+}
+
+.form-vaccine-type {
+	margin-left: 0px !important;
+}
+
+.form-both-dose {
+	display: flex;
+	align-items: center;
+}
+
+.dateSelection>.MuiInputBase-root {
+	color: #00afb9 !important;
+	/* font-weight: bold; */
+}
+
+.dateSelection>.MuiInputBase-root>.MuiInputAdornment-root>.MuiButtonBase-root>.MuiIconButton-label>.MuiSvgIcon-root {
+	color: #00afb9 !important;
+}
+
+.dateSelection > .MuiFormLabel-root.Mui-focused{
+	color: #00afb9 !important;
+}
+
+.dateSelection > .MuiInput-underline:after {	
+	border: 1px solid #00afb9 !important;
+}
+
+.form-not-sure.MuiFormControlLabel-root {
+	margin-left: 0 !important;
+	color: gray;
+}
+
+.form-not-sure>.MuiButtonBase-root.Mui-checked {
+	color: #00afb9 !important
+}
+
+.removeDose {
+	display: flex;
+	color: #FFF;
+	justify-content: flex-end;
+	font-size: 14px;
+}
+
+.stateLoader{
+	width: 50%;		
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.stateLoader > .MuiCircularProgress-root {
+	width: 28px !important;
+	height: 28px !important;
+}
+
+.radiovalues {
+	color: gray !important;
+}
+
+.radiovalues>.MuiFormControlLabel-label {
+	font-size: 14px !important;
+}
+
+.radiovalues>.MuiButtonBase-root.Mui-checked {
+	color: #00afb9 !important
+}
+
+.radiovalues>.MuiRadio-root {
+	padding: 9px !important;
+}
+
+.gridCheck {
+	padding-top: 5px !important;
+}
+
+.gridRadio {
+	padding-top: 5px !important;
+}
+
+.checkValues {
+	color: gray !important;
+}
+
+.checkValues>.MuiTypography-root {
+	font-size: 14px !important;
+}
+
+.checkValues>.MuiCheckbox-root {
+	padding: 9px !important;
+}
+
+.checkValues>.MuiButtonBase-root.Mui-checked {
+	color: #00afb9 !important
+}
+
+.errorText {
+	color: red !important;
+	font-size: 12px;
+}
+
+.success-text{
+  background: rgba(0, 0, 0, 0.03);
+  padding: 12px;
+  border-radius: var(--radius);
+  max-height: 200px;
+  overflow: auto;
+  font-size: 14px !important;
+}
+
+.final_success_card {
+	text-align: center;
+	padding-top: 13vh;
+	font-size: 20px;
+  }
+  .success_message {
+	padding-bottom: 35px;
+  }
+
+@media only screen and (max-width: 350px) {
+.custom-file-upload{
+	font-size: 14px;
+	padding: 12px 8px;
+}
+ .addDoseBtn{
+	flex-direction: column !important;
+ }
+}
+
+@media only screen and (max-width: 600px) {
+	.form_body {
+		width: 95%;
+		margin: 0 10px 0 10px;
+	}
+	.stepper {
+		width: 80%;
+	}
+	.stepper div,
+	.stepper a {
+		font-size: 14px !important;
+	}
+	
+	.form-dropdown {
+		width: 100%;
+	}
+	.form-both-dose {
+		display: flex;
+		flex-direction: column !important;
+	}
+	.payment_svg_bg {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 740px) {
+	.lab-dropdown{
+		width: 100% !important;
+	}
+}
